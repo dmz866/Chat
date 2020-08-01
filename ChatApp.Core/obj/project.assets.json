@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "FileHelpers/3.4.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FileHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FileHelpers.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -29,6 +41,22 @@
     }
   },
   "libraries": {
+    "FileHelpers/3.4.1": {
+      "sha512": "7mETxuw4ChoYLYChbWtSEDlZebOzZQrkUfFkl14P57PalDayQWU0gJeOiQG4Vpl64YgDdj4LxakyI5J0NYnR6Q==",
+      "type": "package",
+      "path": "filehelpers/3.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "filehelpers.3.4.1.nupkg.sha512",
+        "filehelpers.nuspec",
+        "lib/net40/FileHelpers.dll",
+        "lib/net40/FileHelpers.xml",
+        "lib/net45/FileHelpers.dll",
+        "lib/net45/FileHelpers.xml",
+        "lib/netstandard2.0/FileHelpers.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -175,6 +203,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "FileHelpers >= 3.4.1",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -185,11 +214,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\David\\source\\repos\\ChatApp\\ChatApp.Core\\ChatApp.Core.csproj",
-      "projectName": "ChatApp.Core",
-      "projectPath": "C:\\Users\\David\\source\\repos\\ChatApp\\ChatApp.Core\\ChatApp.Core.csproj",
+      "projectUniqueName": "C:\\Users\\David\\Desktop\\Estudios\\NET\\Chat\\ChatApp.Core\\Chat.Core.csproj",
+      "projectName": "Chat.Core",
+      "projectPath": "C:\\Users\\David\\Desktop\\Estudios\\NET\\Chat\\ChatApp.Core\\Chat.Core.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\David\\source\\repos\\ChatApp\\ChatApp.Core\\obj\\",
+      "outputPath": "C:\\Users\\David\\Desktop\\Estudios\\NET\\Chat\\ChatApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -219,6 +248,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "FileHelpers": {
+            "target": "Package",
+            "version": "[3.4.1, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",

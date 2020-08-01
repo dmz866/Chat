@@ -1,4 +1,4 @@
-﻿namespace ChatApp.Core.Utils
+﻿namespace Chat.Core.Utils
 {
     public static class Constants
     {

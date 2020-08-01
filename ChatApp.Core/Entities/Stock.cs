@@ -1,7 +1,9 @@
-﻿using System;
+﻿using FileHelpers;
+using System;
 
-namespace ChatApp.Core.Entities
+namespace Chat.Core.Entities
 {
+    [DelimitedRecord(",")]
     public class Stock
     {
         public string Symbol { get; set; }

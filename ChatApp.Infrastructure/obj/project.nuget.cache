@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "P2Y6bbWbj2g042b5VRF7c9s8jdDoLRg6VusV7dUxb4y2mA51Y45IA6GAG0723/2hHX2RpdYA0s+pcQMGcBnqzQ==",
+  "dgSpecHash": "b7VPCAjFQ6uPHwz5ZUbMEEAJ34yQkonnyUfb2tNigVRPA6Re1hV4x7eIDxZ3GlbCg+ha+6s3PacyZlFgz9iM2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\David\\source\\repos\\ChatApp\\ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\David\\Desktop\\Estudios\\NET\\Chat\\ChatApp.Infrastructure\\Chat.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\David\\.nuget\\packages\\filehelpers\\3.4.1\\filehelpers.3.4.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],

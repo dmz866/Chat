@@ -1,7 +1,7 @@
-﻿using ChatApp.Core.Entities;
+﻿using Chat.Core.Entities;
 using System.Threading.Tasks;
 
-namespace ChatApp.Core.Interfaces
+namespace Chat.Core.Interfaces
 {
     public interface IUtilsService
     {

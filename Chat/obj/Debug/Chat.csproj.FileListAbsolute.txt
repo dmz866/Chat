@@ -106,3 +106,13 @@ C:\Users\David\Desktop\Estudios\NET\Chat\Chat\obj\Debug\Chat.csproj.CoreCompileI
 C:\Users\David\Desktop\Estudios\NET\Chat\Chat\obj\Debug\Chat.csproj.CopyComplete
 C:\Users\David\Desktop\Estudios\NET\Chat\Chat\obj\Debug\Chat.dll
 C:\Users\David\Desktop\Estudios\NET\Chat\Chat\obj\Debug\Chat.pdb
+C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Chat.Core.dll
+C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Chat.Infrastructure.dll
+C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Chat.Core.pdb
+C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Chat.Infrastructure.pdb
+C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Microsoft.AspNet.SignalR.SystemWeb.xml

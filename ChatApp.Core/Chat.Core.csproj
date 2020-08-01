@@ -5,11 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\ChatApp.Core\ChatApp.Core.csproj" />
+    <PackageReference Include="FileHelpers" Version="3.4.1" />
   </ItemGroup>
 
 </Project>

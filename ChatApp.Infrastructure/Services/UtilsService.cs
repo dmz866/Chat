@@ -1,12 +1,11 @@
-﻿using ChatApp.Core.Entities;
-using ChatApp.Core.Interfaces;
-using ChatApp.Core.Utils;
+﻿using Chat.Core.Entities;
+using Chat.Core.Interfaces;
+using Chat.Core.Utils;
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using System.Xml.Schema;
-
-namespace ChatApp.Infrastructure.Services
+using FileHelpers;
+namespace Chat.Infrastructure.Services
 {
     public class UtilsService : IUtilsService
     {
@@ -20,9 +19,12 @@ namespace ChatApp.Infrastructure.Services
             try
             {
                 var response = await _client.GetAsync(Constants.STOCK_API_URL + stockCode.Replace(Constants.COMMAND_STOCK, string.Empty));
-                var content = response.Content.ReadAsStringAsync().Result;                
+                var content = response.Content.ReadAsStringAsync().Result;
+                var engine = new FileHelperEngine<Stock>();
+                var records = engine.ReadString(content);
+
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
 
             }

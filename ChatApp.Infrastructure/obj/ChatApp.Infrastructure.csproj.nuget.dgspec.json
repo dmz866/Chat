@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\David\\source\\repos\\ChatApp\\ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj": {}
+    "C:\\Users\\David\\Desktop\\Estudios\\NET\\Chat\\ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\David\\source\\repos\\ChatApp\\ChatApp.Core\\ChatApp.Core.csproj": {
+    "C:\\Users\\David\\Desktop\\Estudios\\NET\\Chat\\ChatApp.Core\\Chat.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\David\\source\\repos\\ChatApp\\ChatApp.Core\\ChatApp.Core.csproj",
-        "projectName": "ChatApp.Core",
-        "projectPath": "C:\\Users\\David\\source\\repos\\ChatApp\\ChatApp.Core\\ChatApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\David\\Desktop\\Estudios\\NET\\Chat\\ChatApp.Core\\Chat.Core.csproj",
+        "projectName": "Chat.Core",
+        "projectPath": "C:\\Users\\David\\Desktop\\Estudios\\NET\\Chat\\ChatApp.Core\\Chat.Core.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\David\\source\\repos\\ChatApp\\ChatApp.Core\\obj\\",
+        "outputPath": "C:\\Users\\David\\Desktop\\Estudios\\NET\\Chat\\ChatApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\David\\source\\repos\\ChatApp\\ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj": {
+    "C:\\Users\\David\\Desktop\\Estudios\\NET\\Chat\\ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\David\\source\\repos\\ChatApp\\ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\David\\Desktop\\Estudios\\NET\\Chat\\ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj",
         "projectName": "ChatApp.Infrastructure",
-        "projectPath": "C:\\Users\\David\\source\\repos\\ChatApp\\ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\David\\Desktop\\Estudios\\NET\\Chat\\ChatApp.Infrastructure\\ChatApp.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\David\\source\\repos\\ChatApp\\ChatApp.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\David\\Desktop\\Estudios\\NET\\Chat\\ChatApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,8 +88,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\David\\source\\repos\\ChatApp\\ChatApp.Core\\ChatApp.Core.csproj": {
-                "projectPath": "C:\\Users\\David\\source\\repos\\ChatApp\\ChatApp.Core\\ChatApp.Core.csproj"
+              "C:\\Users\\David\\Desktop\\Estudios\\NET\\Chat\\ChatApp.Core\\Chat.Core.csproj": {
+                "projectPath": "C:\\Users\\David\\Desktop\\Estudios\\NET\\Chat\\ChatApp.Core\\Chat.Core.csproj"
               }
             }
           }

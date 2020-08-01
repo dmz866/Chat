@@ -174,6 +174,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="ChatHub.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -261,6 +262,16 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChatApp.Core\Chat.Core.csproj">
+      <Project>{70b37f8b-deca-4a30-bfe4-afb739ab9d4d}</Project>
+      <Name>Chat.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChatApp.Infrastructure\Chat.Infrastructure.csproj">
+      <Project>{c019f607-c31b-47aa-8213-4283c938758b}</Project>
+      <Name>Chat.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
