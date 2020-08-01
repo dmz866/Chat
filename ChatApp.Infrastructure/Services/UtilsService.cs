@@ -16,20 +16,27 @@ namespace Chat.Infrastructure.Services
         }
         public async Task<Stock> GetStockInformation(string stockCode)
         {
+            Stock stock = new Stock();
+
             try
-            {
+            {                
                 var response = await _client.GetAsync(Constants.STOCK_API_URL + stockCode.Replace(Constants.COMMAND_STOCK, string.Empty));
                 var content = response.Content.ReadAsStringAsync().Result;
                 var engine = new FileHelperEngine<Stock>();
                 var records = engine.ReadString(content);
+                
+                if (records != null && records.Length > 0)
+                {
+                    stock = records[0];
+                }
 
+                return stock;
             }
-            catch (Exception ex)
+            catch            
             {
-
+                stock.Symbol = Constants.STOCK_API_ERROR_CODE;
+                return stock;
             }
-
-            return new Stock();
         }
     }
 }

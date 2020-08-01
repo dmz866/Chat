@@ -3,7 +3,7 @@ C:\Users\David\Desktop\Estudios\NET\Chat\ChatApp.Core\bin\Debug\netstandard2.0\C
 C:\Users\David\Desktop\Estudios\NET\Chat\ChatApp.Core\bin\Debug\netstandard2.0\Chat.Core.pdb
 C:\Users\David\Desktop\Estudios\NET\Chat\ChatApp.Core\obj\Debug\netstandard2.0\Chat.Core.AssemblyInfoInputs.cache
 C:\Users\David\Desktop\Estudios\NET\Chat\ChatApp.Core\obj\Debug\netstandard2.0\Chat.Core.AssemblyInfo.cs
+C:\Users\David\Desktop\Estudios\NET\Chat\ChatApp.Core\obj\Debug\netstandard2.0\Chat.Core.csproj.CoreCompileInputs.cache
 C:\Users\David\Desktop\Estudios\NET\Chat\ChatApp.Core\obj\Debug\netstandard2.0\Chat.Core.dll
 C:\Users\David\Desktop\Estudios\NET\Chat\ChatApp.Core\obj\Debug\netstandard2.0\Chat.Core.pdb
 C:\Users\David\Desktop\Estudios\NET\Chat\ChatApp.Core\obj\Debug\netstandard2.0\Chat.Core.csprojAssemblyReference.cache
-C:\Users\David\Desktop\Estudios\NET\Chat\ChatApp.Core\obj\Debug\netstandard2.0\Chat.Core.csproj.CoreCompileInputs.cache
