@@ -1,0 +1,8 @@
+C:\Users\David\source\repos\ChatApp\ChatApp.Core\bin\Debug\netstandard2.0\ChatApp.Core.deps.json
+C:\Users\David\source\repos\ChatApp\ChatApp.Core\bin\Debug\netstandard2.0\ChatApp.Core.dll
+C:\Users\David\source\repos\ChatApp\ChatApp.Core\bin\Debug\netstandard2.0\ChatApp.Core.pdb
+C:\Users\David\source\repos\ChatApp\ChatApp.Core\obj\Debug\netstandard2.0\ChatApp.Core.AssemblyInfoInputs.cache
+C:\Users\David\source\repos\ChatApp\ChatApp.Core\obj\Debug\netstandard2.0\ChatApp.Core.AssemblyInfo.cs
+C:\Users\David\source\repos\ChatApp\ChatApp.Core\obj\Debug\netstandard2.0\ChatApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\David\source\repos\ChatApp\ChatApp.Core\obj\Debug\netstandard2.0\ChatApp.Core.dll
+C:\Users\David\source\repos\ChatApp\ChatApp.Core\obj\Debug\netstandard2.0\ChatApp.Core.pdb

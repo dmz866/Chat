@@ -1,0 +1,12 @@
+C:\Users\David\source\repos\ChatApp\ChatApp.Infrastructure\bin\Debug\netstandard2.0\ChatApp.Infrastructure.deps.json
+C:\Users\David\source\repos\ChatApp\ChatApp.Infrastructure\bin\Debug\netstandard2.0\ChatApp.Infrastructure.dll
+C:\Users\David\source\repos\ChatApp\ChatApp.Infrastructure\bin\Debug\netstandard2.0\ChatApp.Infrastructure.pdb
+C:\Users\David\source\repos\ChatApp\ChatApp.Infrastructure\bin\Debug\netstandard2.0\ChatApp.Core.dll
+C:\Users\David\source\repos\ChatApp\ChatApp.Infrastructure\bin\Debug\netstandard2.0\ChatApp.Core.pdb
+C:\Users\David\source\repos\ChatApp\ChatApp.Infrastructure\obj\Debug\netstandard2.0\ChatApp.Infrastructure.csprojAssemblyReference.cache
+C:\Users\David\source\repos\ChatApp\ChatApp.Infrastructure\obj\Debug\netstandard2.0\ChatApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\David\source\repos\ChatApp\ChatApp.Infrastructure\obj\Debug\netstandard2.0\ChatApp.Infrastructure.AssemblyInfo.cs
+C:\Users\David\source\repos\ChatApp\ChatApp.Infrastructure\obj\Debug\netstandard2.0\ChatApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\David\source\repos\ChatApp\ChatApp.Infrastructure\obj\Debug\netstandard2.0\ChatApp.Infrastructure.csproj.CopyComplete
+C:\Users\David\source\repos\ChatApp\ChatApp.Infrastructure\obj\Debug\netstandard2.0\ChatApp.Infrastructure.dll
+C:\Users\David\source\repos\ChatApp\ChatApp.Infrastructure\obj\Debug\netstandard2.0\ChatApp.Infrastructure.pdb
