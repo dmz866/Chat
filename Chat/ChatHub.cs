@@ -4,15 +4,18 @@ using Chat.Core.Interfaces;
 using Chat.Infrastructure.Services;
 using Chat.Core.Entities;
 using System.Threading.Tasks;
+using System;
 
 namespace Chat
 {
     public class ChatHub : Hub
     {
         private readonly IUtilsService _utilsService;
+        private readonly IPostService _postService;
         public ChatHub()
         {
             _utilsService = new UtilsService();
+            _postService = new PostService();
         }
         public async Task SendMessage(string userName, string message)
         {
@@ -30,8 +33,22 @@ namespace Chat
                     message = string.Format("{0} quote is ${1} per share", stock.Symbol, stock.Open);
                 }
             }
-
+            else
+            {
+                createPost(userName, message);
+            }
+            
             Clients.All.addNewMessageToPage(userName, message);
+        }
+
+        private async void createPost(string userName, string message)
+        {
+            Post post = new Post();
+            post.Message = message;
+            post.UserName = userName;
+            post.CreatedAt = new DateTime();
+
+            await _postService.Create(post);
         }
     }
 }
