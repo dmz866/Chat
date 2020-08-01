@@ -4,16 +4,17 @@ namespace ChatApp.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Login()
+        public ActionResult Index()
         {
-            return View();
-        }
-        public ActionResult Chat(string email)
-        {
-            return View();
-        }
+            if(User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Chat", "Home");
+            }
 
-        public ActionResult Register()
+            return RedirectToAction("Login", "Account");
+        }
+        [Authorize]
+        public ActionResult Chat(string email)
         {
             return View();
         }

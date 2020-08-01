@@ -3,9 +3,13 @@
 }
 <h2>Chat</h2>
 <div class="container">
-    <input id="userName" value="test" style="border: none;" />
-    <input type="text" id="message" />
-    <input type="button" id="sendMessageBtn" value="Enviar" />
+    Hello @User.Identity.Name
+    <br /><br />
+          <div>
+              <input type="text" id="message" />
+              <input type="button" id="sendMessageBtn" value="Enviar" />
+              <input type="hidden" id="userName" value="@User.Identity.Name" />
+          </div>
     <ul id="chatMessage">
     </ul>
 </div>
