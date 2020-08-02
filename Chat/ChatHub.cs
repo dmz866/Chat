@@ -35,18 +35,18 @@ namespace Chat
             }
             else
             {
-                createPost(userName, message);
+                await createPost(userName, message);
             }
-            
-            Clients.All.addNewMessageToPage(userName, message);
+
+            Clients.All.addNewMessageToPage(userName, message);            
         }
 
-        private async void createPost(string userName, string message)
+        private async Task createPost(string userName, string message)
         {
             Post post = new Post();
             post.Message = message;
             post.UserName = userName;
-            post.CreatedAt = new DateTime();
+            post.CreatedAt = DateTime.Now;
 
             await _postService.Create(post);
         }

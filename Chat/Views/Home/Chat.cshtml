@@ -20,8 +20,13 @@
         $(function () {
             var chat = $.connection.chatHub;
             chat.client.addNewMessageToPage = function (name, message) {
-                $('#chatMessage').append('<li><strong>' + htmlEncode(name)
-                    + '</strong>: ' + htmlEncode(message) + '</li>');
+                $('#chatMessage').prepend('<li><strong>' + htmlEncode(name) + '</strong>: ' + htmlEncode(message) + '</li>');
+
+                var count = $("#chatMessage li").length;
+
+                if (count > 50) {
+                    $('#chatMessage li').last().remove();
+                }
             };
                 
             $.connection.hub.start().done(function () {
