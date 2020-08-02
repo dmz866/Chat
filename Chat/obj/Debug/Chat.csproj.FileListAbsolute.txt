@@ -1,5 +1,3 @@
-C:\Users\David\Desktop\Estudios\NET\Chat\Chat\obj\Debug\Chat.csprojAssemblyReference.cache
-C:\Users\David\Desktop\Estudios\NET\Chat\Chat\obj\Debug\Chat.csproj.CoreCompileInputs.cache
 C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Chat.dll.config
 C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Chat.dll
 C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Chat.pdb
@@ -115,6 +113,8 @@ C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Microsoft.Owin.Security.Twitte
 C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\David\Desktop\Estudios\NET\Chat\Chat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\David\Desktop\Estudios\NET\Chat\Chat\obj\Debug\Chat.csprojAssemblyReference.cache
+C:\Users\David\Desktop\Estudios\NET\Chat\Chat\obj\Debug\Chat.csproj.CoreCompileInputs.cache
 C:\Users\David\Desktop\Estudios\NET\Chat\Chat\obj\Debug\Chat.csproj.CopyComplete
 C:\Users\David\Desktop\Estudios\NET\Chat\Chat\obj\Debug\Chat.dll
 C:\Users\David\Desktop\Estudios\NET\Chat\Chat\obj\Debug\Chat.pdb
